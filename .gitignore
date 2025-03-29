@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+.next/
+dist/
+.env
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel local
+.vercel/
