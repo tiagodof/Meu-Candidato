@@ -1,6 +1,6 @@
 // Implementação da integração com API do TSE
 import axios from 'axios';
-import { Candidato, CandidatoDetalhado } from './types';
+import { Candidato, CandidatoDetalhado } from '../types';
 
 // Classe para integração com API do TSE
 export class TseApiIntegration {

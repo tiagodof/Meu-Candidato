@@ -5,8 +5,9 @@ import { obterCandidatoDetalhado } from '@/lib/api/mockData';
 // Rota para obter detalhes de um candidato por ID
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
+  const params = await context.params;
   const id = params.id;
   
   try {
