@@ -1,4 +1,4 @@
-# Meu-Candidato: AI-Powered Candidate Analyzer
+# Meu-Candidato: Voter Information Portal for Brazilian Politics
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -9,35 +9,37 @@
 
 ## 🚀 About The Project
 
-**Meu-Candidato** is a modern web application designed to streamline the initial stages of the recruitment process. It leverages AI to analyze candidate resumes (CVs) and provide a concise summary, helping recruiters and hiring managers to quickly identify promising applicants. The project is built with a focus on a clean user experience and efficient processing.
+**Meu-Candidato** is a comprehensive voter information portal designed to empower Brazilian citizens with accessible, relevant, and accurate information about their political representatives. In a democratic society, informed voting is crucial. This platform aggregates and presents political data in an intuitive interface, helping voters make educated decisions during elections.
 
-This tool was developed to explore the integration of AI in human resources and to serve as a practical demonstration of modern front-end technologies.
+The application searches for and displays comprehensive information about Brazilian politicians, including their backgrounds, voting records, public statements, and other relevant political data. By making this information easily accessible, Meu-Candidato contributes to a more transparent and informed electorate.
 
-### ✨ Features
+### ✨ Core Features
 
-- **CV Upload**: Simple interface to upload candidate resumes in PDF format.
-- **AI-Powered Analysis**: Utilizes an AI model to parse and summarize the key skills, experience, and qualifications from the uploaded CV.
-- **Clean UI**: A minimalist and intuitive user interface built with Radix UI and Tailwind CSS for a seamless user experience.
-- **Responsive Design**: Fully responsive layout that works on both desktop and mobile devices.
+- **Politician Search**: Quickly search for Brazilian politicians by name, region, or party affiliation.
+- **Comprehensive Profiles**: View detailed information about each politician, including biography, political history, and key positions.
+- **Voting Records**: Access voting records and political positions on important issues.
+- **Comparative Analysis**: Compare multiple politicians side-by-side to understand their positions and records.
+- **Responsive Design**: A clean, intuitive interface that works seamlessly on desktop and mobile devices.
+- **Data Aggregation**: Pulls information from multiple public sources to provide a comprehensive view.
 
 ---
 
 ## 🛠️ Built With
 
-This project was built using a modern front-end stack, focusing on performance and developer experience.
+This project leverages modern web technologies to deliver a fast, responsive, and user-friendly experience.
 
 ### Front-End
 
-*   **[React](https://reactjs.org/)**: A JavaScript library for building user interfaces.
-*   **[Vite](https://vitejs.dev/)**: A next-generation front-end tooling that provides a faster and leaner development experience.
+*   **[React](https://reactjs.org/)**: A JavaScript library for building dynamic user interfaces.
+*   **[Vite](https://vitejs.dev/)**: A next-generation build tool providing fast development and optimized production builds.
 *   **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
 *   **[Radix UI](https://www.radix-ui.com/)**: A collection of unstyled, accessible UI components.
-*   **[Zod](https://zod.dev/)**: A TypeScript-first schema declaration and validation library.
-*   **[React Hook Form](https://react-hook-form.com/)**: Performant, flexible and extensible forms with easy-to-use validation.
+*   **[React Hook Form](https://react-hook-form.com/)**: Performant form handling and validation.
+*   **[Zod](https://zod.dev/)**: TypeScript-first schema validation.
 
-### Back-End / AI
+### Data & API
 
-The project integrates with the **[OpenAI API](https://openai.com/api/)** to provide powerful and accurate text analysis capabilities.
+The project integrates with public data sources and APIs to aggregate information about Brazilian politicians. Data sources may include government databases, public records, and other publicly available political information.
 
 ---
 
@@ -47,7 +49,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-Make sure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed on your machine.
+Ensure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed on your machine.
 
 *   pnpm
     ```sh
@@ -68,20 +70,22 @@ Make sure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) i
     ```sh
     pnpm install
     ```
-4.  Enter your API key in the relevant file (e.g., `.env`)
+4.  Configure environment variables (if needed)
     ```
-    VITE_API_KEY=\'YOUR_API_KEY\'
+    Create a .env file with any necessary API keys or configuration
     ```
 
 ### Usage
 
-To run the app in the development mode, use the following command. This will open the app at [http://localhost:5173](http://localhost:5173).
+To run the app in development mode:
 
 ```sh
 pnpm run dev
 ```
 
-To build the app for production, use:
+The app will open at [http://localhost:5173](http://localhost:5173).
+
+To build for production:
 
 ```sh
 pnpm run build
@@ -89,11 +93,20 @@ pnpm run build
 
 ---
 
+## 🎯 Project Goals
+
+This project was created with the following objectives in mind:
+
+- **Promote Civic Engagement**: Empower voters with the information they need to make informed decisions.
+- **Increase Transparency**: Make political information easily accessible to the general public.
+- **Demonstrate Technical Skills**: Showcase the ability to build data-driven applications with modern web technologies.
+- **Support Democracy**: Contribute to a more informed and engaged citizenry.
+
+---
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-*(You will need to add a LICENSE file to your repository. I can help with that if you\d like.)*
 
 ---
 
@@ -102,3 +115,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Tiago Oliveira - dpcassessoria@gmail.com
 
 Project Link: [https://github.com/tiagodof/Meu-Candidato](https://github.com/tiagodof/Meu-Candidato)
+
+---
+
+## 🙏 Contributing
+
+Contributions are welcome! If you have suggestions for improving the platform or adding new features, please feel free to open an issue or submit a pull request.
